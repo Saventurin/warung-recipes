@@ -1,0 +1,125 @@
+/* Homepage starts here */
+
+#judul{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:  72px;
+    outline: solid 5px black;
+    padding: 10px;
+}
+
+.goreng{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+}
+/* Homepage ends here */
+
+
+/* Menu 1 (Ayam goreng) starts here */
+
+#ayam-goreng{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 72px;
+    margin-right: 20%;
+    margin-left: 15%;
+    color: black;
+    background-color: gold;
+    width: fit-content
+
+}
+
+.foto-ayam-goreng img{
+    border: solid grey 5px;
+    width: 500px;
+    height: auto;
+    
+}
+
+.foto-ayam-goreng{
+    text-align: left;
+    margin-left: 15%;
+}
+
+.foto-ayam-goreng .deskripsi{
+    text-align: left;
+    margin:auto;
+    font-size: 24px;
+    margin-top: 1.5%;
+    padding-right: 5%;
+    padding-left: auto;
+
+}
+
+/* Menu 1 (Ayam goreng) ends here */
+
+
+/* Menu 2 (Mie goreng) start here */
+
+#judul-mie-goreng{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 72px;
+    margin-right: 20.5%;
+    margin-left: 20%;
+    background-color: gold;
+    width: fit-content;
+}
+
+.foto-mie-goreng img{
+    border: solid grey 5px;
+    width: 500px;
+    height: auto;
+    margin-right: 33%;
+}
+
+.foto-mie-goreng{
+    text-align: center;
+}
+
+.deskripsi-mie-goreng{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20%;
+}
+
+/* Menu 2 (Mie goreng) ends here */
+
+
+/* Menu 3 (Nasi goreng) starts here */
+
+#judul-nasi-goreng{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 72px;
+    background-color: gold;
+    width: fit-content;
+    margin-left: 28.5%;
+}
+
+.foto-nasi-goreng img{
+    border: solid grey 5px;
+    width: auto;
+    height: 400px;
+    margin-left: 28.5%;
+}
+
+.deskripsi-nasi-goreng{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 28.5%;
+    text-align: left;
+
+}
+
+
+
+    
+
+
+
