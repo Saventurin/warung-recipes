@@ -12,6 +12,9 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     font-size: 32px;
+    list-style-type: none;
+    padding-left: 0;
+    padding: 20px;
 }
 
 .link{
@@ -94,30 +97,57 @@
 
 /* Menu 3 (Nasi goreng) starts here */
 
-#judul-nasi-goreng{
+/* Menu 3 (Nasi goreng) - Improved version */
+
+#judul-nasi-goreng {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     font-size: 72px;
     background-color: gold;
     width: fit-content;
-    margin-left: 28.5%;
+    margin: 0 auto; /* Center the heading horizontally */
 }
 
-.foto-nasi-goreng img{
+.foto-nasi-goreng {
+    text-align: center; /* Center the image */
+    max-width: 800px; /* Set a max width for content */
+    margin: 0 auto; /* Center the container */
+}
+
+.foto-nasi-goreng img {
     border: solid grey 5px;
-    width: auto;
-    height: 400px;
-    margin-left: 28.5%;
+    max-width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px 0; /* Add vertical spacing */
 }
 
-.deskripsi-nasi-goreng{
+.deskripsi-nasi-goreng {
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 28.5%;
     text-align: left;
+    max-width: 800px; /* Match container width */
+    margin: 0 auto; /* Center the text container */
+    padding: 0 15px; /* Add some padding */
+    line-height: 1.5; /* Improve readability */
+}
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 
+/* box for menu */
+
+.Box{
+    border: solid black 2px;
+    width: fit-content;
+    height: fit-content;
+    padding: 2px;
+    text-align: center;
+
+
+}
 
     
 
